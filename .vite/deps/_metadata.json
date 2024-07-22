@@ -1,0 +1,49 @@
+{
+  "hash": "3bce05cc",
+  "configHash": "e9f2d5ab",
+  "lockfileHash": "7a5d1601",
+  "browserHash": "d551c147",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "711b517d",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "762b4bf8",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4dc9e256",
+      "needsInterop": true
+    },
+    "msw/browser": {
+      "src": "../../node_modules/msw/lib/browser/index.mjs",
+      "file": "msw_browser.js",
+      "fileHash": "ccf4a77b",
+      "needsInterop": false
+    },
+    "msw": {
+      "src": "../../node_modules/msw/lib/core/index.mjs",
+      "file": "msw.js",
+      "fileHash": "44223604",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5ZPXASNQ": {
+      "file": "chunk-5ZPXASNQ.js"
+    },
+    "chunk-PQW24SBZ": {
+      "file": "chunk-PQW24SBZ.js"
+    },
+    "chunk-MZQ22LAU": {
+      "file": "chunk-MZQ22LAU.js"
+    }
+  }
+}

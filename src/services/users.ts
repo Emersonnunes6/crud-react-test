@@ -1,4 +1,4 @@
-import { User } from "../types/user/User";
+import { CreateUserResponse, User } from "../types/user/User";
 
 export class UserService {
     private async request<T>(endpoint: string, options: RequestInit): Promise<T> {
@@ -17,8 +17,8 @@ export class UserService {
         });
     }
 
-    public async createUser(user: Omit<User, 'id'>): Promise<User[]> {
-        return this.request<User[]>('/api/users', {
+    public async createUser(user: Omit<User, 'id'>): Promise<CreateUserResponse> {
+        return this.request<CreateUserResponse>('/api/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

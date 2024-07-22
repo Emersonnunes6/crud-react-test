@@ -1,13 +1,12 @@
-import { useEffect } from "react"
+import { ToastContainer } from "react-toastify"
+import Users from "./pages/users/index"
 
 function App() {
 
-  useEffect(() => {
-    fetch('/api/users');
-  }, [])
-
   return (
     <>
+      <ToastContainer />
+      <Users />
     </>
   )
 }
